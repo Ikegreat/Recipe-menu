@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    width: 100%;
+    background-color: hsl(30, 54%, 85%);
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px;
+    font-family: young-serif-regular;
+  font-family: "Young Serif", serif;
+  font-style: normal;
+
+
+  
+
+
+}
+.main-container {
+    border: 1px ;
+    border-radius: 11px;
+    width: 350px;
+    min-height: 250vh;
+    background-color: hsl(98, 100%, 98%);
+    box-sizing: border-box;
+    
+
+    
+}
+.illustration {
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 19px;
+    margin-top: 7px;
+    padding: 9px 14px;
+
+}
+.heading {
+    text-align: center;
+    font-size:  18px;
+    font-weight: lighter;
+    padding-bottom: 10px;
+}
+.article-1 {
+text-align: center;
+font-weight: lighter;
+padding: 19px;
+}
+.colored-paragraph-1 {
+    background-color:hsl(30, 100%, 95%);
+    height: 100px;
+    width: 90%;
+    border-radius: 17px;
+    margin: auto;
+    padding-left: 20px;
+    padding-top: 20px;
+    
+}
+.color-text {
+    font-size: 12px;    
+    color:hsl(332, 51%, 32%); 
+}
+#un-ordered-list {
+list-style-type: disc;
+padding-left:36px;
+padding-top: 9px;
+line-height: 13px;
+}
+#ingredient-text {
+    color: hsl(14, 45%, 36%);
+    padding-bottom: 9px;
+}
+.ingredients {
+    margin-top: 5px;
+    padding-left: 20px;
+    line-height: 20px;
+    margin-bottom: 15px;    
+}
+#border-bottom {
+    border-bottom:1px solid black ;
+    margin-top: 7px;
+}
+.instruction-text {
+    color: hsl(14, 45%, 36%);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: lighter;
+}
+.instruct {
+    padding-left:20px;
+    margin-bottom: 30px;
+}
+.main-instruction {
+    margin-bottom: 5px;
+    
+}
+.border-2 {
+    border-bottom: 1px solid;
+    margin-bottom: 20px;
+}
+.nutrition-info {
+    color: hsl(14,45%, 36%);
+font-weight: normal;
+margin-bottom: 5px;
+margin-bottom: 20px;
+}
+.table-info {
+    
+    color: black;
+}
+.Nutrition-table {
+    width: 100%;
+    border-collapse: collapse ;
+    padding: 1rem;
+    td {
+        border-bottom: 1px solid black;
+        padding: 10px 0px;
+    }
+}
+.Nutrition-table tr:last-child td {
+    border-bottom: none;
+}
+#color {
+    color:hsl(14,45%, 36%);
+}
+@media (max-width :768px) {
+    .main-container {
+        min-height: 210vh;
+    }
+}
