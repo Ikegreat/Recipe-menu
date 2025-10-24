@@ -3,40 +3,28 @@
     margin: 0;
 }
 body {
-    width: 100%;
     background-color: hsl(30, 54%, 85%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-family: young-serif-regular;
   font-family: "Young Serif", serif;
   font-style: normal;
-  height: auto;
-  
-
-
-  
-
+  padding: 15px;
 
 }
 .main-container {
    border-radius: 12px;
    width: 350px;
-   height: 260vh;
     background-color: hsl(98, 100%, 98%);
-    margin: 12px 22px;
-
-    
-    
-
+    margin: 0 auto;
+    border-radius: 20px;
+  
     
 }
 .illustration {
     width: 100%;
+    border-radius: 20px 20px 0px 0px;
     box-sizing: border-box;
-    border-radius: 19px;
     margin-top: 7px;
-    padding: 9px 14px;
+    padding: 0;
     display: block;
 
 }
@@ -53,18 +41,30 @@ margin-bottom: 20px;
 }
 .colored-paragraph-1 {
     background-color:hsl(30, 100%, 95%);
-     height: 100px;
+     /* height: 100px;
     width: 90%;
     border-radius: 17px;
     margin: auto;
     padding-left: 20px;
-    padding-top: 20px;
+    padding-top: 20px; */
+    border-radius: 10px;
+    padding: 5px 0px;
      
+}
+.prep-text {
+    padding-left:  15px;
+    padding-bottom: 8px;
+}
+.padding {
+   
+    padding: 20px;
 }
 .color-text {
     font-size: 12px;    
     color:hsl(332, 51%, 32%); 
+    
 }
+
 #un-ordered-list {
 list-style-type: disc;
 padding-left:36px;
@@ -74,6 +74,7 @@ line-height: 13px;
 #ingredient-text {
     color: hsl(14, 45%, 36%);
     padding-bottom: 9px;
+    padding-top: 12px;
 }
 .ingredients {
     margin-top: 5px;
@@ -104,7 +105,7 @@ line-height: 13px;
     margin-bottom: 20px;
 }
 .nutrition-info {
-    color: hsl(14,45%, 36%);
+color: hsl(14,45%, 36%);
 font-weight: normal;
 margin-bottom: 5px;
 margin-bottom: 20px;
@@ -129,7 +130,4 @@ margin-bottom: 20px;
     color:hsl(14,45%, 36%);
 }
 @media (max-width :768px) {
-    .main-container {
-        height: ;
-    }
 }
